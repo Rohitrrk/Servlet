@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style> 
+  *{
+			    
+	font-style:italic;
+	
+			}
+.btn{
+	background-color:grey;
+	color:black;
+	border-radius:10px 10px;
+	}
+
+		h1{
+			font-family:Segeo UI;
+			color:white;
+			background-color:black;
+			text-align: center;
+		}
+		
+		table
+		{
+		    font-family:Segeo UI;
+			border: 3px solid black;
+			
+			}
+</style>
+</head>
+<body>
+<form action="addCustomer.obj">
+
+<h1 align="center">Bank Management System</h1>
+		<table align="center">
+			 <tr>
+				<th>Customer Name: </th>
+				<td><input type ="text" name="custName" required/></td>
+			</tr>
+			
+			<tr>
+				<th>Phone No: </th>
+				<td><input type ="text" name="phone" required /> </td>
+			</tr>
+			
+			<tr>
+				<th>Password </th>
+				<td><input type="password" name ="pwd" required/> </td>
+			</tr>
+			
+			<tr>
+				<th>Re-Enter Password </th>
+				<td><input type="password" name ="rePwd" required/> </td>
+			</tr>
+			
+			<tr>
+                <td colspan="2" style="text-align:center">
+                    <input class="btn" type="submit" value="Submit"/>
+                </td>
+            </tr>
+			</table>
+</form>
+
+</body>
+</html>
